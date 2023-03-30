@@ -11,7 +11,7 @@ h2 {
 }
 
 #menu {
-	color: darkorange;
+	background-color: grey;
 }
 
 .row {
