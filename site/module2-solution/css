@@ -1,0 +1,20 @@
+p {
+	background: lightgrey;
+}
+
+h1 {
+	color: red;
+}
+
+h2 {
+	color: yellowgreen;
+}
+
+#menu {
+	color: darkorange;
+}
+
+.row {
+	color: blue;
+}
+
