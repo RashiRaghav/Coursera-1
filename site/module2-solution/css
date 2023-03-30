@@ -1,9 +1,14 @@
+body {
+	background-color: grey;
+}
+
 p {
 	background: lightgrey;
 }
 
 h1 {
 	color: red;
+	margin-bottom: 30px;
 }
 
 h2 {
