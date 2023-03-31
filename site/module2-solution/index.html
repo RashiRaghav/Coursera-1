@@ -1,26 +1,54 @@
 <!DOCTYPE html>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Coursera-Moudule 2-solution</title>
+	<title>Coursera-Module 2-Solution</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		@media (min-width: 992px) {
+			.col-lg-1 {
+			float: left;
+			width: 33.33%;
+		} 
+	}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-1, .col-md-2, .col-md-3 {
+				float: left;
+			}
+			.col-md-1 {
+				width: 50%;
+			}
+			.col-md-2 {
+				width: 50%;
+			}
+			.col-md-3 {
+				width: 100%;
+			}
+		}
+	</style>
 </head>
 <body>
 	<h1>Our Menu</h1>
-	<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-4">
-		<p>Lrashi</p>
-	</div>
-	<div class="col-md-4">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nostrum officia vero voluptates consequatur, nam deleniti pariatur asperiores exercitationem vitae maxime expedita, dolores fuga magnam. Veniam animi libero recusandae nam!</p>
-	</div>
-	<div class="col-md-4">
-		<p>hello</p>
-	</div>
-</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-1 col-md-1">
+			<div class="column"><div id="menu-item1">Chicken</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nostrum officia vero voluptates consequatur, nam deleniti pariatur asperiores exercitationem vitae maxime expedita, dolores fuga magnam. Veniam animi libero recusandae nam!</p></div></div>
+				<div class="col-lg-1 col-md-2">
+			<div class="column"><div id="menu-item2">Beef</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nostrum officia vero voluptates consequatur, nam deleniti pariatur asperiores exercitationem vitae maxime expedita, dolores fuga magnam. Veniam animi libero recusandae nam!</p></div></div>
+				<div class="col-lg-1 col-md-3">
+			<div class="column"><div id="menu-item3">Sushi</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nostrum officia vero voluptates consequatur, nam deleniti pariatur asperiores exercitationem vitae maxime expedita, dolores fuga magnam. Veniam animi libero recusandae nam!</p></div></div>
+				</div>
 </div>
 </body>
 </html>
