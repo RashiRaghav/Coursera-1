@@ -1,0 +1,29 @@
+html {
+	font-family: sans-serif;
+}
+
+p {
+	padding: 5px;
+}
+
+.container {
+	padding: 10px;
+}
+
+.row {
+	display: table;
+	padding: 5px;
+	color: black;
+}
+
+.column {
+	background-color: grey;
+	border: 2px solid white;
+	display: table-cell;
+	padding: 10px;
+}
+
+#menu-item {
+	text-align: center;
+	font-weight: bold;
+}
